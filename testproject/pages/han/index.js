@@ -4,6 +4,7 @@ export default function HanPage() {
       <div>한혜선</div>
       <div>hey~</div>
       <div>heyhey~</div>
+      <div>heyhey~</div>
     </>
   );
 }
