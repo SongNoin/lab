@@ -6,6 +6,7 @@ export default function SongPage() {
       <div>안녕하세요</div>
       <div>안녕하세요</div>
       <div>안녕하세요</div>
+      <div>실험2 수나숙공송경환</div>
     </>
   );
 }
