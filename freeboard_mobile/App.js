@@ -16,10 +16,16 @@ import {Image, View} from 'react-native';
 import TabNavigator from './pages/navigation/tabNavigator';
 
 const App: () => Node = () => {
+
+  // 수업
+  fetch('https://koreanjson.com/posts/1')
+
+
   const Stack = createNativeStackNavigator();
 
   return (
     <NavigationContainer>
+
       <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="tabNavigator" component={TabNavigator} />
       </Stack.Navigator>
